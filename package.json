@@ -20,7 +20,8 @@
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
     "test": "npm-run-all lint test:*",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "format:hbs": "prettier **/*.hbs --write"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -48,6 +49,7 @@
     "ember-resolver": "^8.0.2",
     "ember-source": "~3.28.0",
     "ember-template-lint": "^3.6.0",
+    "ember-template-lint-plugin-prettier": "^3.0.1",
     "ember-welcome-page": "^4.0.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
